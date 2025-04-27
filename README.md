@@ -39,6 +39,8 @@ This project simulates a real-world cloud security monitoring environment where 
 ### Least Occurring Findings
 ![Least Occurring Findings](least_occurring_findings.png)
 
+### Security Hub Findings View
+![Findings](images/findings.png)
 
 ---
 
