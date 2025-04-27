@@ -28,16 +28,17 @@ This project simulates a real-world cloud security monitoring environment where 
 
 ---
 
-### 📸 Project Previews
+## Project previews
 
-#### GuardDuty Findings Overview
-![GuardDuty Findings Overview](screenshots/guardduty_findings_summary.png)
+### Summary Dashboard
+![Summary Dashboard](summary_dashboard.png)
 
-#### Security Hub Summary
-![Security Hub Summary](screenshots/security_hub_summary.png)
+### Findings by Severity
+![Findings by Severity](findings_by_severity.png)
 
-#### SNS Notification Example
-![SNS Notification](screenshots/sns_notification_example.png)
+### Least Occurring Findings
+![Least Occurring Findings](least_occurring_findings.png)
+
 
 ---
 
