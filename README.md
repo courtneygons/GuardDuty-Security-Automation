@@ -42,6 +42,36 @@ This project simulates a real-world cloud security monitoring environment where 
 ### Security Hub Findings View
 ![Findings](images_findings.png)
 
+
+## Architecture Flow
+
+'''
+┌────────────────────────────┐
+│    AWS GuardDuty            │
+│ (Detects Threats)           │
+└───────────────┬─────────────┘
+                ↓
+┌────────────────────────────┐
+│    AWS EventBridge          │
+│ (Triggers Rule on Findings) │
+└───────────────┬─────────────┘
+                ↓
+┌────────────────────────────┐
+│    AWS SNS Topic            │
+│ (Publishes Notification)    │
+└───────────────┬─────────────┘
+                ↓
+┌────────────────────────────┐
+│    Email Alert to User      │
+│ (Real-Time Notification)    │
+└───────────────┬─────────────┘
+                ↓
+┌────────────────────────────┐
+│    AWS Security Hub         │
+│ (Centralized Findings View) │
+└────────────────────────────┘
+'''
+
 ---
 
 > Built as part of a focused journey toward cloud security engineering excellence.  
