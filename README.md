@@ -24,4 +24,22 @@ This project demonstrates how to automate real-time security alerting in AWS by 
 - **Screenshots:** Included showing real-time alerts, event patterns, and security summary dashboards.
 
 ## Purpose
-This project simulates a real-world cloud security monitoring environment where automated detection and
+This project simulates a real-world cloud security monitoring environment where automated detection and rapid notification are critical. It demonstrates hands-on skills in threat detection, event automation, and cloud-native security operations — key competencies for cloud security engineering roles.
+
+---
+
+### 📸 Project Previews
+
+#### GuardDuty Findings Overview
+![GuardDuty Findings Overview](screenshots/guardduty_findings_summary.png)
+
+#### Security Hub Summary
+![Security Hub Summary](screenshots/security_hub_summary.png)
+
+#### SNS Notification Example
+![SNS Notification](screenshots/sns_notification_example.png)
+
+---
+
+> Built as part of a focused journey toward cloud security engineering excellence.  
+> By Courtney Gonsalves.
