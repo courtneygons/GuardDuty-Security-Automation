@@ -42,15 +42,6 @@ This project simulates a real-world cloud security monitoring environment where 
 ### Security Hub Findings View
 ![Findings](images_findings.png)
 
-## Architecture Flow
-
-```mermaid
-flowchart TD
-    A[AWS GuardDuty (Detects Threats)] --> B[AWS EventBridge (Triggers Rule on Findings)]
-    B --> C[AWS SNS Topic (Publishes Notification)]
-    C --> D[Email Alert to User (Real-Time Notification)]
-    C --> E[AWS Security Hub (Centralized Findings View)]
-
 
 
 ---
